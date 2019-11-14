@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
         //XML에서 만든 TextView를 참조하여 제어하기
         TextView tv = findViewById(R.id.tv);
         tv.setSelected(true);
+
+        Toast.makeText(this, "ddddd", Toast.LENGTH_SHORT).show();
 
     }
 }
